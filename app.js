@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 
 // Server connection
 app.listen(process.env.PORT, process.env.IP, function() {
-	console.log("Server started on port 3000");
+	console.log("Server started on port " + process.env.PORT );
 });
 
 app.use("/", indexRoutes);
