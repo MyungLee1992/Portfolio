@@ -68,12 +68,14 @@ hr {
 .container { 
 	padding: 100px 100px; 
 	width: 80%;
+	max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
 	.container {
 		padding: 100px 0;
 		margin: auto;
+		width: 90%;
 	}
 }
 
