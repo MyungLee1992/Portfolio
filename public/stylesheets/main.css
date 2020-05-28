@@ -37,7 +37,7 @@ hr {
 .sidenav {
   position: sticky;
   float: right;
-  top: 20%;
+  top: 17%;
   overflow-x: hidden;
   text-align: center;
   background: transparent;
@@ -45,7 +45,7 @@ hr {
   border: 3px solid #eee;
   width: 120px;
   z-index: 0;
-  margin: 0 30px;
+  margin: 0px 30px;
 }
 
 .sidenav a {
@@ -93,6 +93,42 @@ hr {
 	font-size: 20px;
 }
 
+.overlay {
+	position: relative;
+}
+
+.img-fluid {
+	opacity: 1;
+	display: block;
+	transition: 1s ease;
+}
+
+.description {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	text-align: center;
+	background-color: #ec8b5e;
+	color: white;
+	font-size: 16px;
+	padding: 16px 16px;
+	margin: 10px;
+}
+
+.project:hover .img-fluid {
+	opacity: 0.3;
+}
+
+
+.project:hover .description {
+	opacity: 1;
+}
+
+
 /* #626D71 Slate */
 /* #CDCDC0 Ceramic */
 /* #DDBC95 Latte */
@@ -135,10 +171,17 @@ hr {
 	font-weight: 600;
 }
 
-#skillContent { background-color: #e6d8d8; }
+#projectContent {
+	background-color: #e6d8d8;
+	height: 750px;
+}
 
 #skillContent p {
 	font-size: 30px;
 }
 
-#contactContent { height: 750px; }
+#contactContent {
+	background-color: #cfe0e8;;
+	height: 750px;
+}
+

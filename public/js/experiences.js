@@ -5,7 +5,7 @@ let expriences_vm = new Vue({
 			{
 				id: 1,
 				employer: "Middle Tennessee State University",
-				date: "Sep 2019 - Present",
+				date: "Sep 2019 - Apr 2020",
 				title: "Computer Science Tutor",
 				description: "As a Computer Science Tutor, I assist students to develop their programming skills and understand the concepts of data structure and algorithms. Either Python or C++ is the main language." 
 			},

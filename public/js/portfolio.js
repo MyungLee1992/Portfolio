@@ -37,4 +37,8 @@ function clicked() {
     $('.navbar-collapse').collapse('toggle');
 }
 
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 

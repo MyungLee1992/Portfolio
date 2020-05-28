@@ -1,21 +1,13 @@
 Vue.component('courses', {
 	template: `
-		<div class="row">
-			<div class="col-xl-6 pb-5 pr-md-4">
+		<div class="row justify-content-center">
+			<div class="pb-5">
 				<h2 class="text-center">Completed Courses</h2>
 				<hr>
 				<ul>
 					<course v-for="course in completedCourses" :key="course.id">{{course.name}}</course>
 				</ul>
 			</div>	
-
-			<div class="col-xl-6 pb-5 pr-md-4">
-				<h2 class="text-center">Current Courses</h2>
-				<hr>
-				<ul>
-					<course v-for="course in currentCourses" :key="course.id">{{course.name}}</course>
-				</ul>
-			</div>
 		</div>	
 	`,
 
@@ -33,9 +25,8 @@ Vue.component('courses', {
 				{id:9, name: "Compiler Design & Software Development", 	completed: true },
 				{id:10, name: "Ethics in Computing & Technology"	, 		completed: true },
 				{id:11, name: "Computer Languages: Java", 					completed: true },
-				{id:12, name: "Web Technologies",  								completed: false },
-				{id:13, name: "Software Engineering"  ,  						completed: false },
-				{id:14, name: "Elements of Linear Algebra"	, 		  		completed: false },
+				{id:12, name: "Web Technologies",  								completed: true },
+				{id:13, name: "Software Engineering"  ,  						completed: true }
 			]
 		}
 	},
@@ -45,9 +36,6 @@ Vue.component('courses', {
 			return this.courses.filter(course => course.completed);
 		},
 
-		currentCourses() {
-			return this.courses.filter(course => !course.completed);
-		}
 	}
 });
 
