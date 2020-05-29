@@ -7,7 +7,7 @@ let expriences_vm = new Vue({
 				employer: "Middle Tennessee State University",
 				date: "Sep 2019 - Apr 2020",
 				title: "Computer Science Tutor",
-				description: "As a Computer Science Tutor, I assist students to develop their programming skills and understand the concepts of data structure and algorithms. Either Python or C++ is the main language." 
+				description: "As a Computer Science Tutor, I assisted students to develop their programming skills and understand the concepts of data structure and algorithms. Either Python or C++ is the main language." 
 			},
 			{
 				id: 2,
@@ -28,7 +28,7 @@ let expriences_vm = new Vue({
 				employer: "United States Army",
 				date: "Apr 2011 - Jul 2014",
 				title: "Material Handling Clerk",
-				description: "My first job was a material handling clerk in Kentucky. I played a vital role to keep the accuracy of 95% on maintaining the parts. Also, I turned in an enormous excess parts to the designated place. While deploying to Afghanistan for 9 months, I conducted a sling load operation to transport army supplies to smaller stations." 
+				description: "My first job was a Material Handling Clerk in Kentucky. I played a vital role to keep the accuracy of 95% on maintaining the parts. Also, I turned in an enormous excess parts to the designated place. While deploying to Afghanistan for 9 months, I conducted a sling load operation to transport army supplies to smaller stations." 
 			}
 
 		]

@@ -2,25 +2,27 @@
 
 <!-- About me -->
 <div id="aboutContent" class="container text-center">
-	<h1>About me</h1>
- 	<div class="row">
-		<div class="col-lg-6">
-			<img class="mt-0 mb-5 mt-lg-4" src="images/profile.jpg" height="250px" width="200px" data-toggle="tooltip" data-placement="top" title="Sean Lee">
-		</div>
-		<div class="col-lg-6 text-md-left">
-			<hr>
-			<p>I am a recent graduate from Middle Tennessee State University with B.S. in Computer Science degree. Seeking Entry-Level Software Engineer/Developer position to contribute my experiences and skills including C++, Java, HTML, CSS, JS, Node.js, MSSQL, and MySQL.</p>
-			<br>
-			<p>Short term goal: Entry Level Software Engineer.</p>
-			<p>Long term goal: Senior Software Engineer.</p>
-			<hr>				
+	<div data-aos="fade-up">
+		<h1>About me</h1>
+		<div class="row">
+			<div class="col-lg-6">
+				<img class="mt-0 mb-5 mt-lg-4" src="images/profile.jpg" height="250px" width="200px" data-toggle="tooltip" data-placement="top" title="Sean Lee">
+			</div>
+			<div class="col-lg-6 text-md-left">
+				<hr>
+				<p>I am a recent graduate from Middle Tennessee State University with B.S. in Computer Science degree. Seeking Entry-Level Software Engineer/Developer position to contribute my experiences and skills including C++, Java, HTML, CSS, JS, Node.js, MSSQL, and MySQL.</p>
+				<br>
+				<p>Short term goal: Entry Level Software Engineer.</p>
+				<p>Long term goal: Senior Software Engineer.</p>
+				<hr>				
+			</div>
 		</div>
 	</div>
 </div>
 
 <!-- Portfolio -->
 <div id="portfolioContent" class="container-fluid">
-	<div class="container text-left">
+	<div class="container text-left" data-aos="fade-up">
 		<h1 class="text-center">Portfolio</h1>
 		<!-- Career History -->
 		<h2>Career History</h2>
@@ -60,19 +62,22 @@
 
 <!-- Coursework -->
 <div id="courseContent" class="container">
-	<h1 class="text-center">Coursework</h1>
+	<div data-aos="fade-up">
+		<h1 class="text-center">Coursework</h1>
 		<!-- courses.js contains Vue component -->
 		<courses></courses>
+	</div>
 </div>
+
 <!-- Projects -->
-<div id="projectContent" class="container-fluid">
-	<div class="container text-left">
-		<h1 class="text-center">Projects</h1>
-      <div class="row justify-content-center">
-         <div class="col-lg-8 project text-center">
-         	<a href="https://raidertrade.herokuapp.com" data-toggle="tooltip" data-placement="top"
+<div id="projectContent" class="container-fluid text-center">
+	<div class="container" data-aos="fade-up">
+		<h1>Projects</h1>
+      <div class="row">
+         <div class="col-lg-12 text-center">
+         	<a class="d-block project" href="https://raidertrade.herokuapp.com" data-toggle="tooltip" data-placement="top"
          		data-html="true" title="<b>Click for demo!</b>">
-					<img class="img-fluid" src="../images/project1.png">
+					<img class="img-fluid" src="../images/project1.png" />
 					<div class="description">
 						<h2>RaiderTrade</h2>
 						<p>RaiderTrade is a marketplace website to buy and sell textbooks among students to save money.</p>
@@ -85,46 +90,59 @@
 </div>
 
 <!-- Technical skills -->
-<div id="skillContent" class="container-fluid">
-	<div class="container text-center">
+<div id="skillContent" class="container text-center">
+	<div data-aos="fade-up">
 		<h1>Technical Skills</h1>	
 	   <div class="row">
 			<div class="col-xl-3 col-lg-6 pb-5">
 				<h2>FRONT END</h2>
 				<hr>
-				<p>CSS</p> <p>HTML</p> <p>JavaScript</p> <p>Bootstrap</p>
+				<p><i class="devicon-css3-plain colored"> CSS</i></p>
+				<p><i class="devicon-html5-plain colored"> HTML</i></p>
+				<p><i class="devicon-javascript-plain colored"> JavaScript</i></p>
+				<p><i class="devicon-bootstrap-plain colored"> Bootstrap</i></p>
 			</div>
 			<div class="col-xl-3 col-lg-6 pb-5">
 				<h2>BACK END</h2>
 				<hr>
-				<p>C++</p> <p>Java</p> <p>Node.js</p>
+				<p><i class="devicon-cplusplus-plain colored"> C++</i></p>
+				<p><i class="devicon-java-plain colored"> Java</i></p>
+				<p><i class="devicon-nodejs-plain colored"> Node.js</i></p>
 			</div>
 			<div class="col-xl-3 col-lg-6 pb-5">
 				<h2>OS / TOOLS</h2>
 				<hr>
-				<p>Linux</p> <p>Windows</p> <p>Visual Studio</p> <p>Git</p>
+				<p><i class="devicon-linux-plain colored"> Linux</i></p>
+				<p><i class="devicon-windows8-original colored"> Windows</i></p>
+				<p><i class="devicon-visualstudio-plain colored"> VS</i></p>
+				<p><i class="devicon-git-plain colored"> Git</i></p>
 			</div>
 			<div class="col-xl-3 col-lg-6 pb-5">
-				<h2>Database</h2>
+				<h2>DATABASE</h2>
 				<hr>
-				<p>MySQL</p> <p>MSSQL</p>
+				<p><i class="devicon-mysql-plain colored"> MySQL</i></p>
+				<p class="text-danger"><img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png"/> MS SQL</p>
 			</div>			
 		</div>
 	</div>
 </div>
 
 <!-- Contact me -->
-<div  id="contactContent" class="container-fluid">
-	<div class="container text-center">
+<div id="contactContent" class="container-fluid">
+	<a href="#titleContent"><i class="scroll-up fas fa-chevron-up"></i></a>
+	<div class="container text-center" data-aos="fade-up">
 		<h1 class="text-center">Contact Me</h1>
 		<div class="row">
 			<div class="col-lg-12">
-					<a href="https://www.linkedin.com/in/myung-w-sean-lee-b44725140">
+					<a href="https://www.linkedin.com/in/myung-w-sean-lee-b44725140"
+						data-toggle="tooltip" data-placement="bottom" title="Linkedin">
 						<i class="fab fa-linkedin fa-5x"></i>
-					</a>	
-					<a href="https://github.com/MyungLee1992">
+					</a>
+					
+					<a href="https://github.com/MyungLee1992"
+						data-toggle="tooltip" data-placement="bottom" title="Github">
 						<i class="fab fa-github-square fa-5x"></i>
-					</a>	
+					</a>
 			</div>
 		</div>
 	</div>

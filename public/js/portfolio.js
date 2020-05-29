@@ -21,21 +21,15 @@ function current() {
 
 	});
 
-	sideNavLinks.forEach(link => {
-		var content = document.querySelector(link.hash); 
-
-		if (content.offsetTop <= fromTop &&
-      		content.offsetTop + content.offsetHeight > fromTop
-      	)
-			link.classList.add("current");
-		else
-			link.classList.remove("current");
-	});
 }
 
 function clicked() {
     $('.navbar-collapse').collapse('toggle');
 }
+
+AOS.init({
+  duration: 1500,
+});
 
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
