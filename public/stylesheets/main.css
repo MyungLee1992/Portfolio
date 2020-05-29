@@ -68,17 +68,6 @@ hr {
 	color: #ec8b5e; 
 }
 
-.item {
-  width: 200px;
-  height: 200px;
-  margin: 50px auto;
-  padding-top: 75px;
-  background: #ccc;
-  text-align: center;
-  color: #FFF;
-  font-size: 3em;
-}
-
 .navbar .navbar-collapse .navbar-nav a { color: #2A3132; }
 .navbar .navbar-collapse .navbar-nav a:hover { color: #ec8b5e; }
 
