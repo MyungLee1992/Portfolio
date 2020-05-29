@@ -14,5 +14,5 @@ Sean's Portfolio Website
 <b>Framework</b>
 - Bootstrap
 
-## Live Demo
-For more information, click [Here](https://sean-lee-portfolio.herokuapp.com/) to check it out!
+## Link to Website
+To visit my website, click [Here](https://sean-lee-portfolio.herokuapp.com/) to check it out!
