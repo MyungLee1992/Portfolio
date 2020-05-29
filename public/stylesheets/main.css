@@ -85,7 +85,7 @@ hr {
 .current { background-color: #eee; }
 .row { margin-top: 5%; }
 .container { 
-	padding: 50px 0;
+	padding: 100px 0;
 	margin: auto;
 	width: 90%;
 	max-width: 600px;
@@ -106,8 +106,8 @@ hr {
 .project-img {
 	opacity: 1;
 	transition: 1s ease;
- 	height: 250px;
- 	width: 400px;
+ 	height: 200px;
+ 	width: 350px;
 }
 
 .description {
@@ -132,11 +132,14 @@ hr {
 }
 
 
-@media screen and (min-width: 850px) {
-	.container { max-width: 450px; }
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 450px;
+		padding: 50px 0;
+	}
 	.project-img {
-		height: 300px;
-		width: 450px;
+		height: 250px;
+		width: 400px;
 	}
 	.description {
 		height: 200px;
@@ -146,10 +149,12 @@ hr {
 }
 
 @media screen and (min-width: 992px) {
-	.container { max-width: 600px; }
+	.container { 
+		max-width: 600px;
+	}
 	.project-img {
-		height: 350px;
-		width: 600px;
+		height: 300px;
+		width: 550px;
 	}
 	.description {
 		height: 250px;
@@ -159,10 +164,12 @@ hr {
 }
 
 @media screen and (min-width: 1200px) {
-	.container { max-width: 800px; }
+	.container {
+		max-width: 800px;
+	}
 	.project-img {
-		height: 450px;
-		width: 800px;
+		height: 400px;
+		width: 750px;
 	}
 	.description {
 		height: 350px;
