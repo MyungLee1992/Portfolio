@@ -1,4 +1,5 @@
 # Portfolio
+<img src="images/title.png" width="500" height="300" />
 Sean's Portfolio Website
 
 ## Tech/Framework used
