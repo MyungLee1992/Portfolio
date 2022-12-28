@@ -8,9 +8,10 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 
 // Server connection
-app.listen(process.env.PORT, process.env.IP, function() {
-	console.log("Server started on port " + process.env.PORT );
-});
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Serving on port ${port}`)
+})
 
 app.use("/", indexRoutes);
 

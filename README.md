@@ -15,4 +15,4 @@ Sean's Portfolio Website
 - Bootstrap
 
 ## Link to Website
-To visit my website, click [Here](https://sean-lee-portfolio.herokuapp.com/) to check it out!
+To visit my website, click [Here](https://portfolio-66ko.onrender.com) to check it out!
